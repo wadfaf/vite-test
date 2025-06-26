@@ -1,17 +1,48 @@
 {
-  "name": "my-project",
+  "name": "my-project-qwee7887",
   "version": "0.0.0",
   "type": "module",
+  "main": "",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "lib:build": "rollup -c"
+  },
+"devDependencies": {
+    "@babel/core": "^7.23.9",
+    "@babel/plugin-proposal-optional-chaining": "^7.21.0",
+    "@babel/preset-env": "^7.23.9",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@vue/babel-plugin-transform-vue-jsx": "^1.4.0",
+    "@vue/babel-preset-jsx": "^1.4.0",
+    "@vue/cli-plugin-babel": "^5.0.8",
+    "@vuepress/core": "^1.9.10",
+    "@vuepress/plugin-register-components": "^1.9.10",
+    "dayjs": "^1.11.11",
+    "rollup": "^4.12.0",
+    "rollup-plugin-livereload": "^2.0.5",
+    "rollup-plugin-serve": "^1.1.1",
+    "rollup-plugin-vue": "5.1.9",
+    "sass": "^1.77.8",
+    "sass-loader": "10",
+    "vue-docgen-api": "^4.79.1",
+    "vue-docgen-cli": "^4.79.0",
+    "vuepress": "^1.9.10"
   },
   "dependencies": {
-    "vue": "^3.5.13"
+    "core-js": "2",
+    "element-ui": "^2.15.14",
+    "vue": "2.6.14",
+    "vue-server-renderer": "2.6.14",
+    "vue-template-compiler": "2.6.14"
   },
-  "devDependencies": {
-    "@vitejs/plugin-vue": "^5.2.3",
-    "vite": "^6.3.5"
+  "peerDependencies": {
+    "dayjs": "^1.11.11",
+    "element-ui": "^2.15.14",
+    "vue": "2.6.14"
   }
 }
